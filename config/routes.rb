@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'pages/template' => 'pages#template'
+  get 'pages/component' => 'pages#component'
+  get 'pages/tutorial' => 'pages#tutorial'
+  get 'pages/sign_up' => 'pages#sign_up'
+  get 'pages/profile' => 'pages#profile'
+  get 'pages/landing' => 'pages#landing'
+  get 'pages/index' => 'pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
